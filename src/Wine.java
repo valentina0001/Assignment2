@@ -4,7 +4,7 @@ public class Wine extends Product {
 
     public static final double calculateExtraTax =  10;
     public Wine( String name, int barKod, int basePrice, double bottleVolume) {
-        super (name, barKod, basePrice );
+        super (name, barKod, basePrice );// KOMENTAR //
         this.bottleVolume = bottleVolume;
     }
 
